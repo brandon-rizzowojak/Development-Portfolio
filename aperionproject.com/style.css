@@ -1,0 +1,65 @@
+body {
+    background: -moz-linear-gradient(gray 30%, black 70%);
+    background: -webkit-linear-gradient(white, black);
+    background: -ms-linear-gradient(gray 30%, black 30%);
+    background: -o-linear-gradient(gray 30%, black 30%);
+    font-family: 'Montserrat', 'Helvetica Neue', "Arial", sans-serif;
+    font-size: medium;
+    font-weight: 100;
+    color: black;
+    text-align: center;
+}
+#qberto {
+    width: 500px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-family: 'Montserrat', 'Helvetica Neue', "Arial", sans-serif;
+}
+nav {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    font-family: 'Montserrat', 'Helvetica Neue', "Arial", sans-serif;
+}
+li {
+    margin: 10px;
+    display: inline;
+}
+span {
+    text-shadow: 429px -42px 5px gray;
+}
+table {
+    width: 100%
+}
+a:link {
+    color: black;
+}
+
+/* visited link */
+
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+
+a:hover {
+    color: gray;
+}
+
+/* selected link */
+
+a:active {
+    color: black;
+}
