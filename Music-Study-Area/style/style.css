@@ -1,0 +1,66 @@
+#welcome {
+    text-align: center;
+    font-family: "Arial Narrow", Arial, sans-serif;
+
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+    padding: 100px;
+    height: 200px;
+    width: 300px;
+    text-shadow: 2px 2px 8px;
+    background: #191919;
+    color: #e2dcd0;
+    -moz-box-shadow: 5px 5px 5px 0px #615a61;
+-webkit-box-shadow: 5px 5px 5px 0px #615a61;
+box-shadow: 5px 5px 5px 0px #615a61;
+}
+
+#bgWelcome {
+    background: -moz-radial-gradient(circle, #f9f6c6, #857478, #818181);
+    background: -webkit-radial-gradient(circle, #f9f6c6, #857478, #818181);
+    background: -ms-radial-gradient(circle, #f9f6c6, #857478, #818181);
+    background: -o-radial-gradient(circle, #f9f6c6, #857478, #818181);
+}
+
+.button {
+	-moz-box-shadow: 5px 5px 5px 0px #615a61;
+	-webkit-box-shadow: 5px 5px 5px 0px #615a61;
+	box-shadow: 5px 5px 5px 0px #615a61;
+	background-color:#000000;
+	-webkit-border-top-left-radius:23px;
+	-moz-border-radius-topleft:23px;
+	border-top-left-radius:23px;
+	-webkit-border-top-right-radius:23px;
+	-moz-border-radius-topright:23px;
+	border-top-right-radius:23px;
+	-webkit-border-bottom-right-radius:23px;
+	-moz-border-radius-bottomright:23px;
+	border-bottom-right-radius:23px;
+	-webkit-border-bottom-left-radius:23px;
+	-moz-border-radius-bottomleft:23px;
+	border-bottom-left-radius:23px;
+	text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	font-style:normal;
+	height:46px;
+	line-height:46px;
+	width:120px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:2px 2px 5px #000000;
+}
+.button:hover {
+	background-color:#646266;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}

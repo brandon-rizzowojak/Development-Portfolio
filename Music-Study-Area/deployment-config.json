@@ -1,0 +1,9 @@
+{
+    "type": "ftp",
+    "host": "server208.web-hosting.com",
+    "username": "leardjyj",
+    "password": "iy$ywbSY!9AVQ",
+    "port": 21,
+    "remotePath": "/public_html/aperionproject.com/Music-Study-Area",
+    "uploadOnSave": false
+}
