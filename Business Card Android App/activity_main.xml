@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    >
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="#484848"
+        android:layout_alignParentBottom="true"/>
+
+
+    <ImageView
+        android:id="@+id/photo_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/brandonrizzowojak" />
+
+    <TextView
+        android:id="@+id/apps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Applications"
+        android:layout_centerHorizontal="true"
+        android:textSize="24dp"
+        android:textColor="#000000"
+        android:paddingTop="1dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/websites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/apps"
+        android:text="Websites"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/storyline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/websites"
+        android:text="Articulate Storyline"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/languages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/storyline"
+        android:text="JAVA, XML, HTML, CSS"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/github"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="7dp"
+        android:text="GITHUB.com/brandon-rizzowojak/Development-Portfolio"
+        android:textSize="13dp"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:text="LINKEDIN.com/in/brandon-rizzo-wojak"
+        android:id="@+id/linkedin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_above="@id/github"
+        android:paddingLeft="7dp"
+        android:paddingBottom="8dp"
+        android:textSize="14dp"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:text="+17734545866"
+        android:autoLink="phone"
+        android:textColorLink="#FFFFFF"
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/linkedin"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="7dp"
+        android:paddingBottom="8dp"
+        android:textSize="14dp"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/phone"
+        android:autoLink="email"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingBottom="8dp"
+        android:paddingLeft="7dp"
+        android:text="@string/email"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        android:textColorLink="#FFFFFF" />
+
+
+
+</RelativeLayout>
